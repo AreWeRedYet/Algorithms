@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>shortestPath.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>DBA7A3661F6464FE00CED9A8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBBE63841F6476FE00B861A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
