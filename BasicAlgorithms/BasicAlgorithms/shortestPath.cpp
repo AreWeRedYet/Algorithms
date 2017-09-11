@@ -247,21 +247,17 @@ int main()
         int x, y, cost;
         cin >> x >> y >> cost;
         Edge e1(y, cost);
-//        Edge e2(x, cost);
+        Edge e2(x, cost);
         
         connections[x].push_back(e1);
-//        connections[y].push_back(e2);
+        connections[y].push_back(e2);
     }
     
     Graph g(connections);
     
-    
-    stack<int> sortedNodes = g.topologicalSort();
     for (int i = 0; i < n; i++)
     {
-        cout << sortedNodes.top() << endl;
-        sortedNodes.pop();
-//        cout << g.shortestPathDijakstra(0, i) << endl;
+        cout << g.shortestPathDijakstra(0, i) << endl;
 //        cout << g.shortestPathFord(0, i) << endl;
     }
     
