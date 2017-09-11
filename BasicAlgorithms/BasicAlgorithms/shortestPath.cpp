@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <stack>
 
 using namespace std;
 
@@ -52,11 +53,14 @@ public:
         return allShortestPathsFromStart[end];
     }
     
-  
-    // Graph - directed
-    // Graph - can have weights < 0 (that's why it needs to be directed)
-    // Graph - simple (no loops, no multiple edges for same 2 vertices)
-    // Can determine if there is negative cycle between edges (u,v)
+    /**
+     Ford graph algorithm for finding shortest paths
+     Graph directed/undirected, can have weights < 0. If there is negative cycle we will know
+
+     @param start start node
+     @param end end node
+     @return shortest path between start and end node
+     */
     int shortestPathFord(int start, int end)
     {
         vector<bool> reached(connections.size(), false);
@@ -93,9 +97,31 @@ public:
         return reached[end] ? bestPaths[end] : inf;
     }
     
-    int shortestPathDAG()
+    int shortestPathDAG(int start, int end)
     {
-        // TODO
+        stack<int> sortedNodes = topologicalSort();
+        vector<int> bestPath(connections.size(), 0);
+        vector<bool> visited(connections.size(), false);
+        
+        visited[start] = true;
+        
+        for (int i = 0; i < connections.size() - 1; i++) {
+            int node = sortedNodes.top();
+            sortedNodes.pop();
+            
+            if (!visited[node]) {
+                continue;
+            }
+            
+            for (Edge connection : connections[node]) {
+                if (!visited[connection.vertex] || bestPath[connection.vertex] < bestPath[node] + connection.cost)
+                {
+                    bestPath[connection.vertex] = bestPath[node] + connection.cost;
+                    visited[connection.vertex] = true;
+                }
+            }
+        }
+        
         return 0;
     }
     
@@ -113,8 +139,49 @@ public:
         return vector<vector<int>>(n);
     }
     
+  
 private:
+    void dfs(int node, stack<int>& sortedNodes, vector<bool>& visited)
+    {
+        visited[node] = true;
+        
+        for (int i = 0; i < connections[node].size(); i++)
+        {
+            if (visited[connections[node][i].vertex])
+            {
+                continue;
+            }
+            
+            dfs(connections[node][i].vertex, sortedNodes, visited);
+        }
+        
+        sortedNodes.push(node);
+    }
     
+    stack<int> topologicalSort()
+    {
+        vector<bool> visited(connections.size(), false);
+        stack<int> sortedNodes;
+        
+        for (int i = 0; i < connections.size(); i++)
+        {
+            if (visited[i])
+            {
+                continue;
+            }
+            
+            dfs(i, sortedNodes, visited);
+        }
+        
+        return sortedNodes;
+    }
+    
+    /**
+     Performs relaxation of edges
+
+     @param bestPaths current best paths
+     @param reached nodes we have reached
+     */
     void relaxationOnEdges(vector<int> &bestPaths, vector<bool> &reached) {
         for (int i = 0; i < connections.size(); i++)
         {
@@ -129,7 +196,13 @@ private:
         }
     }
     
-    // Calculate all shortest paths starting from "from" node
+    
+    /**
+     Find all shortest paths from node from
+
+     @param from node from which to find all shortest paths
+     @return vector representing all shortest paths from given node
+     */
     vector<int> allShortestPathsFrom(int from)
     {
         vector<int> bestPaths(connections.size(), -1);
@@ -174,18 +247,22 @@ int main()
         int x, y, cost;
         cin >> x >> y >> cost;
         Edge e1(y, cost);
-        Edge e2(x, cost);
+//        Edge e2(x, cost);
         
         connections[x].push_back(e1);
-        connections[y].push_back(e2);
+//        connections[y].push_back(e2);
     }
     
     Graph g(connections);
     
+    
+    stack<int> sortedNodes = g.topologicalSort();
     for (int i = 0; i < n; i++)
     {
+        cout << sortedNodes.top() << endl;
+        sortedNodes.pop();
 //        cout << g.shortestPathDijakstra(0, i) << endl;
-        cout << g.shortestPathFord(0, i) << endl;
+//        cout << g.shortestPathFord(0, i) << endl;
     }
     
     return 0;
