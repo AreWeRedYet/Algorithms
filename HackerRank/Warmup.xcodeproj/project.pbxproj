@@ -12,7 +12,6 @@
 		DB1B9EFE1F68A76E002CE1D6 /* plusMinus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1B9EFD1F68A76E002CE1D6 /* plusMinus.cpp */; };
 		DB1B9F001F68A7B9002CE1D6 /* compareTheTriplets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1B9EFF1F68A7B9002CE1D6 /* compareTheTriplets.cpp */; };
 		DB1B9F031F68A810002CE1D6 /* diagonalDifference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1B9F021F68A80F002CE1D6 /* diagonalDifference.cpp */; };
-		DB1B9F041F68A810002CE1D6 /* diagonalDifference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1B9F021F68A80F002CE1D6 /* diagonalDifference.cpp */; };
 		DB1B9F061F68A84C002CE1D6 /* staircase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1B9F051F68A84C002CE1D6 /* staircase.cpp */; };
 		DB1B9F081F68A873002CE1D6 /* miniMaxSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1B9F071F68A873002CE1D6 /* miniMaxSum.cpp */; };
 		DB1B9F0A1F68A8AB002CE1D6 /* birthdayCakeCandles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1B9F091F68A8AB002CE1D6 /* birthdayCakeCandles.cpp */; };
@@ -531,7 +530,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1B9EFE1F68A76E002CE1D6 /* plusMinus.cpp in Sources */,
-				DB1B9F041F68A810002CE1D6 /* diagonalDifference.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
