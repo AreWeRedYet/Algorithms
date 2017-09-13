@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB55F6491F69E36700971AF5 /* appleAndOrange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB55F6481F69E36700971AF5 /* appleAndOrange.cpp */; };
 		DB55F6591F69E93A00971AF5 /* gradingStudents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB55F6581F69E93A00971AF5 /* gradingStudents.cpp */; };
+		DB55F6641F69EC5800971AF5 /* kangaroo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB55F6631F69EC5800971AF5 /* kangaroo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		DB55F65E1F69EC4700971AF5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		DB55F6481F69E36700971AF5 /* appleAndOrange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = appleAndOrange.cpp; sourceTree = "<group>"; };
 		DB55F6571F69E92600971AF5 /* gradingStudents */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gradingStudents; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB55F6581F69E93A00971AF5 /* gradingStudents.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gradingStudents.cpp; sourceTree = "<group>"; };
+		DB55F6621F69EC4700971AF5 /* kangaroo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kangaroo; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB55F6631F69EC5800971AF5 /* kangaroo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kangaroo.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +60,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DB55F6521F69E92600971AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB55F65D1F69EC4700971AF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,6 +89,7 @@
 			children = (
 				DB55F6451F69E36700971AF5 /* appleAndOrange */,
 				DB55F6571F69E92600971AF5 /* gradingStudents */,
+				DB55F6621F69EC4700971AF5 /* kangaroo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +99,7 @@
 			children = (
 				DB55F6481F69E36700971AF5 /* appleAndOrange.cpp */,
 				DB55F6581F69E93A00971AF5 /* gradingStudents.cpp */,
+				DB55F6631F69EC5800971AF5 /* kangaroo.cpp */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -120,6 +141,23 @@
 			productReference = DB55F6571F69E92600971AF5 /* gradingStudents */;
 			productType = "com.apple.product-type.tool";
 		};
+		DB55F65A1F69EC4700971AF5 /* kangaroo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB55F65F1F69EC4700971AF5 /* Build configuration list for PBXNativeTarget "kangaroo" */;
+			buildPhases = (
+				DB55F65B1F69EC4700971AF5 /* Sources */,
+				DB55F65D1F69EC4700971AF5 /* Frameworks */,
+				DB55F65E1F69EC4700971AF5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kangaroo;
+			productName = Implementation;
+			productReference = DB55F6621F69EC4700971AF5 /* kangaroo */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -134,6 +172,9 @@
 						ProvisioningStyle = Automatic;
 					};
 					DB55F64F1F69E92600971AF5 = {
+						ProvisioningStyle = Automatic;
+					};
+					DB55F65A1F69EC4700971AF5 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,6 +193,7 @@
 			targets = (
 				DB55F6441F69E36700971AF5 /* appleAndOrange */,
 				DB55F64F1F69E92600971AF5 /* gradingStudents */,
+				DB55F65A1F69EC4700971AF5 /* kangaroo */,
 			);
 		};
 /* End PBXProject section */
@@ -170,6 +212,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB55F6591F69E93A00971AF5 /* gradingStudents.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB55F65B1F69EC4700971AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB55F6641F69EC5800971AF5 /* kangaroo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +361,22 @@
 			};
 			name = Release;
 		};
+		DB55F6601F69EC4700971AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB55F6611F69EC4700971AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +403,15 @@
 			buildConfigurations = (
 				DB55F6551F69E92600971AF5 /* Debug */,
 				DB55F6561F69E92600971AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB55F65F1F69EC4700971AF5 /* Build configuration list for PBXNativeTarget "kangaroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB55F6601F69EC4700971AF5 /* Debug */,
+				DB55F6611F69EC4700971AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -20,7 +20,7 @@ int main() {
     int n;
     cin >> n;
     vector<int> grades(n);
-    for(int grades_i = 0; grades_i < n; grades_i++){
+    for(int grades_i = 0; grades_i < n; grades_i++) {
         cin >> grades[grades_i];
     }
     vector < int > result = solve(grades);
