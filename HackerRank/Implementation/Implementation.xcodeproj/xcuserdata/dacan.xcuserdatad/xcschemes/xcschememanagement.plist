@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>betweenTwoSets.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>breakingTheRecords.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>gradingStudents.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +43,16 @@
 			<true/>
 		</dict>
 		<key>DB55F65A1F69EC4700971AF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB888E3A1F6B189C00E95ECB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB888E461F6B199200E95ECB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
