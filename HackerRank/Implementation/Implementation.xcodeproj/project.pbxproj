@@ -10,6 +10,7 @@
 		DB55F6491F69E36700971AF5 /* appleAndOrange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB55F6481F69E36700971AF5 /* appleAndOrange.cpp */; };
 		DB55F6591F69E93A00971AF5 /* gradingStudents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB55F6581F69E93A00971AF5 /* gradingStudents.cpp */; };
 		DB55F6641F69EC5800971AF5 /* kangaroo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB55F6631F69EC5800971AF5 /* kangaroo.cpp */; };
+		DB69DDB81F6C9EE7002A8621 /* divisibleSumPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB69DDB31F6C9EDA002A8621 /* divisibleSumPairs.cpp */; };
 		DB888E431F6B18A700E95ECB /* betweenTwoSets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB888E381F6B188F00E95ECB /* betweenTwoSets.cpp */; };
 		DB888E501F6B1AFC00E95ECB /* breakingTheRecords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB888E441F6B198500E95ECB /* breakingTheRecords.cpp */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		DB55F65E1F69EC4700971AF5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DB69DDBA1F6C9EE7002A8621 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -69,6 +79,8 @@
 		DB55F6581F69E93A00971AF5 /* gradingStudents.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gradingStudents.cpp; sourceTree = "<group>"; };
 		DB55F6621F69EC4700971AF5 /* kangaroo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kangaroo; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB55F6631F69EC5800971AF5 /* kangaroo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kangaroo.cpp; sourceTree = "<group>"; };
+		DB69DDB31F6C9EDA002A8621 /* divisibleSumPairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = divisibleSumPairs.cpp; sourceTree = "<group>"; };
+		DB69DDBE1F6C9EE7002A8621 /* divisibleSumPairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = divisibleSumPairs; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB888E381F6B188F00E95ECB /* betweenTwoSets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = betweenTwoSets.cpp; sourceTree = "<group>"; };
 		DB888E421F6B189C00E95ECB /* betweenTwoSets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = betweenTwoSets; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB888E441F6B198500E95ECB /* breakingTheRecords.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = breakingTheRecords.cpp; sourceTree = "<group>"; };
@@ -91,6 +103,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DB55F65D1F69EC4700971AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB69DDB91F6C9EE7002A8621 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,6 +149,7 @@
 				DB55F6621F69EC4700971AF5 /* kangaroo */,
 				DB888E421F6B189C00E95ECB /* betweenTwoSets */,
 				DB888E4F1F6B199200E95ECB /* breakingTheRecords */,
+				DB69DDBE1F6C9EE7002A8621 /* divisibleSumPairs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +162,7 @@
 				DB55F6631F69EC5800971AF5 /* kangaroo.cpp */,
 				DB888E381F6B188F00E95ECB /* betweenTwoSets.cpp */,
 				DB888E441F6B198500E95ECB /* breakingTheRecords.cpp */,
+				DB69DDB31F6C9EDA002A8621 /* divisibleSumPairs.cpp */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -200,6 +221,23 @@
 			productReference = DB55F6621F69EC4700971AF5 /* kangaroo */;
 			productType = "com.apple.product-type.tool";
 		};
+		DB69DDB51F6C9EE7002A8621 /* divisibleSumPairs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB69DDBB1F6C9EE7002A8621 /* Build configuration list for PBXNativeTarget "divisibleSumPairs" */;
+			buildPhases = (
+				DB69DDB61F6C9EE7002A8621 /* Sources */,
+				DB69DDB91F6C9EE7002A8621 /* Frameworks */,
+				DB69DDBA1F6C9EE7002A8621 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = divisibleSumPairs;
+			productName = Implementation;
+			productReference = DB69DDBE1F6C9EE7002A8621 /* divisibleSumPairs */;
+			productType = "com.apple.product-type.tool";
+		};
 		DB888E3A1F6B189C00E95ECB /* betweenTwoSets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB888E3F1F6B189C00E95ECB /* Build configuration list for PBXNativeTarget "betweenTwoSets" */;
@@ -253,6 +291,9 @@
 					DB55F65A1F69EC4700971AF5 = {
 						ProvisioningStyle = Automatic;
 					};
+					DB69DDB51F6C9EE7002A8621 = {
+						ProvisioningStyle = Automatic;
+					};
 					DB888E3A1F6B189C00E95ECB = {
 						ProvisioningStyle = Automatic;
 					};
@@ -278,6 +319,7 @@
 				DB55F65A1F69EC4700971AF5 /* kangaroo */,
 				DB888E3A1F6B189C00E95ECB /* betweenTwoSets */,
 				DB888E461F6B199200E95ECB /* breakingTheRecords */,
+				DB69DDB51F6C9EE7002A8621 /* divisibleSumPairs */,
 			);
 		};
 /* End PBXProject section */
@@ -304,6 +346,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB55F6641F69EC5800971AF5 /* kangaroo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB69DDB61F6C9EE7002A8621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB69DDB81F6C9EE7002A8621 /* divisibleSumPairs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +527,22 @@
 			};
 			name = Release;
 		};
+		DB69DDBC1F6C9EE7002A8621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB69DDBD1F6C9EE7002A8621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		DB888E401F6B189C00E95ECB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -544,6 +610,15 @@
 			buildConfigurations = (
 				DB55F6601F69EC4700971AF5 /* Debug */,
 				DB55F6611F69EC4700971AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB69DDBB1F6C9EE7002A8621 /* Build configuration list for PBXNativeTarget "divisibleSumPairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB69DDBC1F6C9EE7002A8621 /* Debug */,
+				DB69DDBD1F6C9EE7002A8621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

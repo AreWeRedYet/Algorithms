@@ -19,6 +19,7 @@ int main()
     int countNewBest = 0;
     int min = scores[0];
     int max = scores[0];
+    
     for (int i = 1; i < n; i++) {
         if (min > scores[i]) {
             min = scores[i];
