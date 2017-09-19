@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>pickingNumbers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>sockMerchant.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -113,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>DB69DDBF1F6C9FA4002A8621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB73CA8A1F71A63200C96721</key>
 		<dict>
 			<key>primary</key>
 			<true/>
