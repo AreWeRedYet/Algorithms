@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>magicSquare.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>migratoryBirds.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -133,6 +138,11 @@
 			<true/>
 		</dict>
 		<key>DB74FDD91F72E98400DADCDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB74FDE41F72ED6C00DADCDA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
