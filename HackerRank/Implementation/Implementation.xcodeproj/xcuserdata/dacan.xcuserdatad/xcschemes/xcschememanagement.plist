@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>climbingTheLeaderboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>countingValleys.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -123,6 +128,11 @@
 			<true/>
 		</dict>
 		<key>DB73CA8A1F71A63200C96721</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB74FDD91F72E98400DADCDA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
