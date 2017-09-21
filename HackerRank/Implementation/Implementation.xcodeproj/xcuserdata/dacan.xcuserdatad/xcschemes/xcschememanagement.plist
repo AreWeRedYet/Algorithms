@@ -84,6 +84,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>pdfViewer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>pickingNumbers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -93,6 +98,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>10</integer>
+		</dict>
+		<key>theHurdleRace.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>utopianTree.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -158,6 +173,21 @@
 			<true/>
 		</dict>
 		<key>DB8966101F70770300088710</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939A2A1F74588B00B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939A331F74588C00B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939A3C1F74588F00B504AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

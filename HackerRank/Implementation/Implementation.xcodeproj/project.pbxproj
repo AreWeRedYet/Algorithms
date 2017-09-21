@@ -19,6 +19,9 @@
 		DB888E431F6B18A700E95ECB /* betweenTwoSets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB888E381F6B188F00E95ECB /* betweenTwoSets.cpp */; };
 		DB888E501F6B1AFC00E95ECB /* breakingTheRecords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB888E441F6B198500E95ECB /* breakingTheRecords.cpp */; };
 		DB89661A1F70773500088710 /* catAndAMouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB8966191F70773500088710 /* catAndAMouse.cpp */; };
+		DB939A461F7458D300B504AF /* theHurdleRace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB939A451F7458D300B504AF /* theHurdleRace.cpp */; };
+		DB939A481F74591E00B504AF /* pdfViewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB939A471F74591E00B504AF /* pdfViewer.cpp */; };
+		DB939A4A1F74593F00B504AF /* utopianTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB939A491F74593F00B504AF /* utopianTree.cpp */; };
 		DB94811E1F6D4E6E00788D56 /* migratoryBirds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB94811D1F6D4E6E00788D56 /* migratoryBirds.cpp */; };
 		DB94811F1F6D522000788D56 /* birthdayChocolate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB69DDC81F6C9FEF002A8621 /* birthdayChocolate.cpp */; };
 		DB94812A1F6D52D200788D56 /* dayOfTheProgrammer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB9481291F6D52D200788D56 /* dayOfTheProgrammer.cpp */; };
@@ -145,6 +148,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		DB939A2E1F74588B00B504AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DB939A371F74588C00B504AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DB939A401F74588F00B504AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		DB9481181F6D4E5400788D56 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +249,12 @@
 		DB888E4F1F6B199200E95ECB /* breakingTheRecords */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = breakingTheRecords; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8966181F70770300088710 /* catAndAMouse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = catAndAMouse; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8966191F70773500088710 /* catAndAMouse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = catAndAMouse.cpp; sourceTree = "<group>"; };
+		DB939A321F74588B00B504AF /* theHurdleRace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = theHurdleRace; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB939A3B1F74588C00B504AF /* pdfViewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pdfViewer; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB939A441F74588F00B504AF /* utopianTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = utopianTree; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB939A451F7458D300B504AF /* theHurdleRace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = theHurdleRace.cpp; sourceTree = "<group>"; };
+		DB939A471F74591E00B504AF /* pdfViewer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pdfViewer.cpp; sourceTree = "<group>"; };
+		DB939A491F74593F00B504AF /* utopianTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utopianTree.cpp; sourceTree = "<group>"; };
 		DB94811C1F6D4E5400788D56 /* migratoryBirds */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = migratoryBirds; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB94811D1F6D4E6E00788D56 /* migratoryBirds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = migratoryBirds.cpp; sourceTree = "<group>"; };
 		DB9481281F6D52AA00788D56 /* dayOfTheProgrammer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dayOfTheProgrammer; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -323,6 +359,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB939A2D1F74588B00B504AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB939A361F74588C00B504AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB939A3F1F74588F00B504AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB9481171F6D4E5400788D56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +447,9 @@
 				DB73CA921F71A63200C96721 /* pickingNumbers */,
 				DB74FDE11F72E98400DADCDA /* climbingTheLeaderboard */,
 				DB74FDEC1F72ED6C00DADCDA /* magicSquare */,
+				DB939A321F74588B00B504AF /* theHurdleRace */,
+				DB939A3B1F74588C00B504AF /* pdfViewer */,
+				DB939A441F74588F00B504AF /* utopianTree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -415,6 +475,9 @@
 				DB73CA931F71A65A00C96721 /* pickingNumbers.cpp */,
 				DB74FDE21F72E9AA00DADCDA /* climbingTheLeaderboard.cpp */,
 				DB74FDED1F72ED8A00DADCDA /* magicSquare.cpp */,
+				DB939A451F7458D300B504AF /* theHurdleRace.cpp */,
+				DB939A471F74591E00B504AF /* pdfViewer.cpp */,
+				DB939A491F74593F00B504AF /* utopianTree.cpp */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -643,6 +706,57 @@
 			productReference = DB8966181F70770300088710 /* catAndAMouse */;
 			productType = "com.apple.product-type.tool";
 		};
+		DB939A2A1F74588B00B504AF /* theHurdleRace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB939A2F1F74588B00B504AF /* Build configuration list for PBXNativeTarget "theHurdleRace" */;
+			buildPhases = (
+				DB939A2B1F74588B00B504AF /* Sources */,
+				DB939A2D1F74588B00B504AF /* Frameworks */,
+				DB939A2E1F74588B00B504AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = theHurdleRace;
+			productName = Implementation;
+			productReference = DB939A321F74588B00B504AF /* theHurdleRace */;
+			productType = "com.apple.product-type.tool";
+		};
+		DB939A331F74588C00B504AF /* pdfViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB939A381F74588C00B504AF /* Build configuration list for PBXNativeTarget "pdfViewer" */;
+			buildPhases = (
+				DB939A341F74588C00B504AF /* Sources */,
+				DB939A361F74588C00B504AF /* Frameworks */,
+				DB939A371F74588C00B504AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pdfViewer;
+			productName = Implementation;
+			productReference = DB939A3B1F74588C00B504AF /* pdfViewer */;
+			productType = "com.apple.product-type.tool";
+		};
+		DB939A3C1F74588F00B504AF /* utopianTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB939A411F74588F00B504AF /* Build configuration list for PBXNativeTarget "utopianTree" */;
+			buildPhases = (
+				DB939A3D1F74588F00B504AF /* Sources */,
+				DB939A3F1F74588F00B504AF /* Frameworks */,
+				DB939A401F74588F00B504AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = utopianTree;
+			productName = Implementation;
+			productReference = DB939A441F74588F00B504AF /* utopianTree */;
+			productType = "com.apple.product-type.tool";
+		};
 		DB9481141F6D4E5400788D56 /* migratoryBirds */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB9481191F6D4E5400788D56 /* Build configuration list for PBXNativeTarget "migratoryBirds" */;
@@ -777,6 +891,15 @@
 					DB8966101F70770300088710 = {
 						ProvisioningStyle = Automatic;
 					};
+					DB939A2A1F74588B00B504AF = {
+						ProvisioningStyle = Automatic;
+					};
+					DB939A331F74588C00B504AF = {
+						ProvisioningStyle = Automatic;
+					};
+					DB939A3C1F74588F00B504AF = {
+						ProvisioningStyle = Automatic;
+					};
 					DB9481141F6D4E5400788D56 = {
 						ProvisioningStyle = Automatic;
 					};
@@ -824,6 +947,9 @@
 				DB73CA8A1F71A63200C96721 /* pickingNumbers */,
 				DB74FDD91F72E98400DADCDA /* climbingTheLeaderboard */,
 				DB74FDE41F72ED6C00DADCDA /* magicSquare */,
+				DB939A2A1F74588B00B504AF /* theHurdleRace */,
+				DB939A331F74588C00B504AF /* pdfViewer */,
+				DB939A3C1F74588F00B504AF /* utopianTree */,
 			);
 		};
 /* End PBXProject section */
@@ -930,6 +1056,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB89661A1F70773500088710 /* catAndAMouse.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB939A2B1F74588B00B504AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB939A461F7458D300B504AF /* theHurdleRace.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB939A341F74588C00B504AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB939A481F74591E00B504AF /* pdfViewer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB939A3D1F74588F00B504AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB939A4A1F74593F00B504AF /* utopianTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1311,6 +1461,66 @@
 			};
 			name = Release;
 		};
+		DB939A301F74588B00B504AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB939A311F74588B00B504AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB939A391F74588C00B504AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB939A3A1F74588C00B504AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB939A421F74588F00B504AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB939A431F74588F00B504AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		DB94811A1F6D4E5400788D56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1520,6 +1730,33 @@
 			buildConfigurations = (
 				DB8966161F70770300088710 /* Debug */,
 				DB8966171F70770300088710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB939A2F1F74588B00B504AF /* Build configuration list for PBXNativeTarget "theHurdleRace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB939A301F74588B00B504AF /* Debug */,
+				DB939A311F74588B00B504AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB939A381F74588C00B504AF /* Build configuration list for PBXNativeTarget "pdfViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB939A391F74588C00B504AF /* Debug */,
+				DB939A3A1F74588C00B504AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB939A411F74588F00B504AF /* Build configuration list for PBXNativeTarget "utopianTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB939A421F74588F00B504AF /* Debug */,
+				DB939A431F74588F00B504AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

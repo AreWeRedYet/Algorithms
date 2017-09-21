@@ -89,8 +89,7 @@ int minCostMagic(vector<int>& permutation, int currentIndex, const vector<vector
     for (int i = currentIndex; i < permutation.size(); i++) {
         swap(permutation, currentIndex, i);
         
-        int cost = minCostMagic(permutation, currentIndex + 1, startingMatrix);
-        
+        int cost = minCostMagic(permutation, currentIndex + 1, startingMatrix);        
         
         if (minCost > cost) {
             minCost = cost;
