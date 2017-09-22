@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>angryProfessor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>appleAndOrange.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>beautifulDaysAtTheMovies.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
 		</dict>
 		<key>betweenTwoSets.xcscheme</key>
 		<dict>
@@ -33,6 +43,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>14</integer>
+		</dict>
+		<key>circularArrayRotation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
 		</dict>
 		<key>climbingTheLeaderboard.xcscheme</key>
 		<dict>
@@ -94,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>sequenceEquation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>sockMerchant.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -108,6 +128,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>20</integer>
+		</dict>
+		<key>viralAdvertising.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -188,6 +213,31 @@
 			<true/>
 		</dict>
 		<key>DB939A3C1F74588F00B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939A4B1F7588A500B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939A541F7588A600B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939A5D1F7588A600B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939A661F7588A700B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939A6F1F7588A700B504AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
