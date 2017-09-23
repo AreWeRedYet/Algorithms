@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>appendAndDelete.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
 		<key>appleAndOrange.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -79,10 +84,25 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>extraLongFactorials.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
+		<key>findDigits.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>gradingStudents.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>jumpingOnTheCloudsRev.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
 		</dict>
 		<key>kangaroo.xcscheme</key>
 		<dict>
@@ -143,6 +163,11 @@
 			<true/>
 		</dict>
 		<key>DB2B3A621F6DD33C00A21BAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB391E841F77161200582BC2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -238,6 +263,21 @@
 			<true/>
 		</dict>
 		<key>DB939A6F1F7588A700B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939AA91F758E7200B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939ABF1F75916300B504AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB939AE01F7593B000B504AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
