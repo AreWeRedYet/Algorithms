@@ -4,10 +4,48 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Div2.436.xcscheme</key>
+		<key>A.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>B.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>C.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>D.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DB02A0291F79B2A0003EBEFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB02A0341F79B319003EBEFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB02A03D1F79B321003EBEFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB02A0461F79B324003EBEFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

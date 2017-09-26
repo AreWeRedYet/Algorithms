@@ -121,6 +121,11 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>equalizeTheArray.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
 		<key>extraLongFactorials.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -308,6 +313,11 @@
 			<true/>
 		</dict>
 		<key>DB74FDE41F72ED6C00DADCDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB7B2E9B1F7B026E00A051BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
