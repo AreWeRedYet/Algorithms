@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>biggerIsGreater.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
 		<key>birthdayChocolate.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -121,6 +126,11 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>encryption.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
 		<key>equalizeTheArray.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -180,10 +190,20 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>modifiedKaprekarNumbers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
 		<key>nonDivisibleSubset.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>33</integer>
+		</dict>
+		<key>organizingContainersOfBalls.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
 		</dict>
 		<key>pdfViewer.xcscheme</key>
 		<dict>
@@ -418,6 +438,26 @@
 			<true/>
 		</dict>
 		<key>DB9481421F6D8E1B00788D56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB97FC8D1F813C4100C289AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB97FC971F814EBB00C289AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB97FCA61F81567000C289AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB97FCB11F81760C00C289AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
