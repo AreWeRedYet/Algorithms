@@ -4,45 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>equal.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>kingdomDivision.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>sherlockAndCost.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>theCoinChangeProblem.xcscheme</key>
+		<key>A.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>B.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DB3056431F83DC09002BDE36</key>
+		<key>DB7F93D31F8306FD00CAAAA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB4047001F859C9700C366F7</key>
+		<key>DB7F93E01F83075800CAAAA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB7F93C01F82F04700CAAAA7</key>
+		<key>DB7F93E91F83075A00CAAAA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB97FCC31F81866300C289AA</key>
+		<key>DB7F93F81F83251E00CAAAA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

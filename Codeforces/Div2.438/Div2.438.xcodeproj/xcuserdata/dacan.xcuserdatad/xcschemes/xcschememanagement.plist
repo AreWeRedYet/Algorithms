@@ -4,45 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>equal.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>kingdomDivision.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>sherlockAndCost.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>theCoinChangeProblem.xcscheme</key>
+		<key>A.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>B.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>C.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>D.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DB3056431F83DC09002BDE36</key>
+		<key>DB8E0B211F860FF8005183AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB4047001F859C9700C366F7</key>
+		<key>DB8E0B371F861067005183AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB7F93C01F82F04700CAAAA7</key>
+		<key>DB8E0B401F861068005183AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB97FCC31F81866300C289AA</key>
+		<key>DB8E0B491F86106A005183AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -108,7 +108,7 @@ public:
         for (int i = 0; i < connections.size() - 1; i++) {
             int node = sortedNodes.top();
             sortedNodes.pop();
-            
+        
             if (!visited[node]) {
                 continue;
             }

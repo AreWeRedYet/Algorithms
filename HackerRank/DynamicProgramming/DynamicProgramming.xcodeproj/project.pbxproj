@@ -7,11 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB30564C1F83DC15002BDE36 /* sherlockAndCost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB3056421F83DC05002BDE36 /* sherlockAndCost.cpp */; };
+		DB4047091F859CA600C366F7 /* kingdomDivision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB4046FF1F859C9300C366F7 /* kingdomDivision.cpp */; };
 		DB7F93CA1F82F06400CAAAA7 /* equal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB7F93C91F82F06400CAAAA7 /* equal.cpp */; };
 		DB97FCCF1F8189B500C289AA /* theCoinChangeProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB97FCCE1F8189B500C289AA /* theCoinChangeProblem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		DB3056471F83DC09002BDE36 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DB4047041F859C9700C366F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		DB7F93C41F82F04700CAAAA7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +53,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB3056421F83DC05002BDE36 /* sherlockAndCost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sherlockAndCost.cpp; sourceTree = "<group>"; };
+		DB30564B1F83DC09002BDE36 /* sherlockAndCost */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sherlockAndCost; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4046FF1F859C9300C366F7 /* kingdomDivision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kingdomDivision.cpp; sourceTree = "<group>"; };
+		DB4047081F859C9700C366F7 /* kingdomDivision */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kingdomDivision; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7F93C81F82F04700CAAAA7 /* equal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = equal; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7F93C91F82F06400CAAAA7 /* equal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = equal.cpp; sourceTree = "<group>"; };
 		DB97FCC41F81866300C289AA /* theCoinChangeProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = theCoinChangeProblem; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +64,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DB3056461F83DC09002BDE36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4047031F859C9700C366F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB7F93C31F82F04700CAAAA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,6 +108,8 @@
 			children = (
 				DB97FCC41F81866300C289AA /* theCoinChangeProblem */,
 				DB7F93C81F82F04700CAAAA7 /* equal */,
+				DB30564B1F83DC09002BDE36 /* sherlockAndCost */,
+				DB4047081F859C9700C366F7 /* kingdomDivision */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +119,8 @@
 			children = (
 				DB97FCCE1F8189B500C289AA /* theCoinChangeProblem.cpp */,
 				DB7F93C91F82F06400CAAAA7 /* equal.cpp */,
+				DB3056421F83DC05002BDE36 /* sherlockAndCost.cpp */,
+				DB4046FF1F859C9300C366F7 /* kingdomDivision.cpp */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -86,6 +128,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DB3056431F83DC09002BDE36 /* sherlockAndCost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3056481F83DC09002BDE36 /* Build configuration list for PBXNativeTarget "sherlockAndCost" */;
+			buildPhases = (
+				DB3056441F83DC09002BDE36 /* Sources */,
+				DB3056461F83DC09002BDE36 /* Frameworks */,
+				DB3056471F83DC09002BDE36 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sherlockAndCost;
+			productName = DynamicProgramming;
+			productReference = DB30564B1F83DC09002BDE36 /* sherlockAndCost */;
+			productType = "com.apple.product-type.tool";
+		};
+		DB4047001F859C9700C366F7 /* kingdomDivision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4047051F859C9700C366F7 /* Build configuration list for PBXNativeTarget "kingdomDivision" */;
+			buildPhases = (
+				DB4047011F859C9700C366F7 /* Sources */,
+				DB4047031F859C9700C366F7 /* Frameworks */,
+				DB4047041F859C9700C366F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kingdomDivision;
+			productName = DynamicProgramming;
+			productReference = DB4047081F859C9700C366F7 /* kingdomDivision */;
+			productType = "com.apple.product-type.tool";
+		};
 		DB7F93C01F82F04700CAAAA7 /* equal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB7F93C51F82F04700CAAAA7 /* Build configuration list for PBXNativeTarget "equal" */;
@@ -129,6 +205,12 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = AreWeRedYet;
 				TargetAttributes = {
+					DB3056431F83DC09002BDE36 = {
+						ProvisioningStyle = Automatic;
+					};
+					DB4047001F859C9700C366F7 = {
+						ProvisioningStyle = Automatic;
+					};
 					DB7F93C01F82F04700CAAAA7 = {
 						ProvisioningStyle = Automatic;
 					};
@@ -152,11 +234,29 @@
 			targets = (
 				DB97FCC31F81866300C289AA /* theCoinChangeProblem */,
 				DB7F93C01F82F04700CAAAA7 /* equal */,
+				DB3056431F83DC09002BDE36 /* sherlockAndCost */,
+				DB4047001F859C9700C366F7 /* kingdomDivision */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DB3056441F83DC09002BDE36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB30564C1F83DC15002BDE36 /* sherlockAndCost.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4047011F859C9700C366F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4047091F859CA600C366F7 /* kingdomDivision.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB7F93C11F82F04700CAAAA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,6 +276,70 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		DB3056491F83DC09002BDE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"WARNING_CFLAGS[arch=*]" = "-Wall";
+			};
+			name = Debug;
+		};
+		DB30564A1F83DC09002BDE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"WARNING_CFLAGS[arch=*]" = "-Wall";
+			};
+			name = Release;
+		};
+		DB4047061F859C9700C366F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"WARNING_CFLAGS[arch=*]" = "-Wall";
+			};
+			name = Debug;
+		};
+		DB4047071F859C9700C366F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"WARNING_CFLAGS[arch=*]" = "-Wall";
+			};
+			name = Release;
+		};
 		DB7F93C61F82F04700CAAAA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -346,6 +510,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DB3056481F83DC09002BDE36 /* Build configuration list for PBXNativeTarget "sherlockAndCost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3056491F83DC09002BDE36 /* Debug */,
+				DB30564A1F83DC09002BDE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4047051F859C9700C366F7 /* Build configuration list for PBXNativeTarget "kingdomDivision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4047061F859C9700C366F7 /* Debug */,
+				DB4047071F859C9700C366F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DB7F93C51F82F04700CAAAA7 /* Build configuration list for PBXNativeTarget "equal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
