@@ -5,13 +5,33 @@
 			"name": "(lldb) Launch",
 			"type": "cppdbg",
 			"request": "launch",
-			"program": "/Users/dacan/Git/Algorithms/BasicAlgorithms/bfs.out",
+			"program": "${fileDirname}/${fileBasenameNoExtension}.out",
 			"args": [],
 			"stopAtEntry": false,
-			"cwd": "/Users/dacan/Git/Algorithms/BasicAlgorithms",
+			"cwd": "${fileDirname}",
 			"environment": [],
 			"externalConsole": true,
 			"MIMode": "lldb"
+		},
+		{
+			"name": "(gdb) Launch",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${fileDirname}/${fileBasenameNoExtension}.out",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${fileDirname}",
+			"environment": [],
+			"externalConsole": true,
+			"MIMode": "gdb",
+			"miDebuggerPath": "/usr/local/Cellar/gdb/8.2/bin/gdb",
+			"setupCommands": [
+				{
+					"description": "Enable pretty-printing for gdb",
+					"text": "-enable-pretty-printing",
+					"ignoreFailures": true
+				}
+			]
 		}
 	]
 }

@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"type": "shell",
+			"problemMatcher": "$gcc",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"command": "g++-7 ${relativeFile} -o ${fileDirname}/${fileBasenameNoExtension}.out -std=c++11 -Wall -g",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": true,
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "build ship",
+			"type": "shell",
+			"problemMatcher": "$gcc",
+			"group": "build",
+			"command": "g++-7 ${relativeFile} -o ${fileDirname}/${fileBasenameNoExtension}.out -std=c++11 -Wall -O2",
+		}
+	]
+}
