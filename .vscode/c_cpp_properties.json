@@ -10,27 +10,10 @@
 				"/System/Library/Frameworks",
 				"/Library/Frameworks"
 			],
-			"compilerPath": "/usr/bin/clang",
+			"compilerPath": "/usr/local/Cellar/gcc@7/7.3.0/bin/g++-7",
 			"cStandard": "c11",
-			"cppStandard": "c++14",
-			"intelliSenseMode": "clang-x64"
-		},
-		{
-			"name": "Win32",
-			"includePath": [
-				"${workspaceFolder}"
-			],
-			"compilerPath": "C:\\MinGW\\bin\\gcc.exe",
-			"intelliSenseMode": "clang-x64",
-			"cStandard": "c11",
-			"cppStandard": "c++11",
-			"browse": {
-				"path": [
-					"${workspaceFolder}"
-				],
-				"limitSymbolsToIncludedHeaders": true,
-				"databaseFilename": ""
-			}
+			"cppStandard": "c++17",
+			"intelliSenseMode": "gcc-x64"
 		}
 	],
 	"version": 4
